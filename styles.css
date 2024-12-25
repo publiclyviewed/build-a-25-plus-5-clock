@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000; 
+  }
+  
+  .wrapper {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2, h3, strong, button, #timer-label, #time-left {
+    color: #6a0dad; 
+  }
+  
+  h3, strong {
+    color: #008000;  
+  }
+  
+  button {
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  button:hover:enabled {
+    background-color: #800080;
+  }
+  
+  .timer-wrapper {
+    margin-top: 20px;
+  }
+  
+  .audio {
+    display: none;
+  }
+  
+  
