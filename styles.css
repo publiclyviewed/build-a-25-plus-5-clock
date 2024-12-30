@@ -17,11 +17,11 @@ body, html {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
-  h1, h2, h3, strong, button, #timer-label, #time-left {
+  h1, strong, button, #timer-label, #time-left {
     color: #6a0dad; 
   }
   
-  h3, strong {
+  h2, strong {
     color: #008000;  
   }
   
