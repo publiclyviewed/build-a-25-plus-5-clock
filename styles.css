@@ -1,28 +1,40 @@
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000; 
-  }
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+body {
+  background-image: url('https://www.kyototourism.org/wp/wp-content/uploads/2024/03/50628b8e324d8f2bc8a31d4d603b8e5d-scaled.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
   
   .wrapper {
     text-align: center;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   h1, strong, button, #timer-label, #time-left {
-    color: #6a0dad; 
+    color: #ffffff; 
   }
   
   h2, strong {
-    color: #008000;  
+    color: #ff0000;  
+  }
+  h3 {
+    color: #6a0dad;
+    font-size: 12px;
   }
   
   button {
@@ -50,5 +62,7 @@ body, html {
   .audio {
     display: none;
   }
-  
+  #session-length, #break-length {
+    color: #ffffff;
+  }
   
